@@ -1,0 +1,3 @@
+<ng-container  *ngFor="let todo of todos$ | async">
+<app-todo-item [todo]="todo" (deleteTodoEvent)="onDeleteTodo($event)" (changeCompleteEvent) = "onChangeCompleted($event)" (submitUpdateEvent)="onSubmitUpdateEvent($event)"></app-todo-item>
+</ng-container >

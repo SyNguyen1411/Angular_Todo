@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/eva-icons/style/eva-icons.css";
+
+html, body{
+    height: 100%;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+*:not(i) {
+    font-family: 'Roboto', sans-serif;
+}

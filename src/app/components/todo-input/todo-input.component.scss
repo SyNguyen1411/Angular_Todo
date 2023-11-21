@@ -1,0 +1,10 @@
+input{
+    outline: none;
+    border: none;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+::placeholder{
+    color: rgba(0,0,0,0.5);
+}
